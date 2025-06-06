@@ -1,0 +1,54 @@
+// Place your key bindings in this file to override the defaults
+[
+  {
+    "key": "cmd+i",
+    "command": "aipopup.action.modal.generate",
+    "when": "editorFocus && !composerBarIsVisible"
+  },
+  {
+    "key": "shift+cmd+k",
+    "command": "-aipopup.action.modal.generate",
+    "when": "editorFocus && !composerBarIsVisible"
+  },
+  {
+    "key": "cmd+k",
+    "command": "-aipopup.action.modal.generate",
+    "when": "editorFocus && !composerBarIsVisible"
+  },
+  {
+    "key": "shift+cmd+i",
+    "command": "composer.startComposerPrompt"
+  },
+  {
+    "key": "cmd+i",
+    "command": "-composer.startComposerPrompt"
+  },
+  {
+    "key": "shift+cmd+i",
+    "command": "-composer.newAgentChat"
+  },
+  {
+    "key": "cmd+k w",
+    "command": "workbench.action.closeEditorsInGroup"
+  },
+  {
+    "key": "cmd+r w",
+    "command": "-workbench.action.closeEditorsInGroup"
+  },
+  {
+    "key": "cmd+k cmd+w",
+    "command": "workbench.action.closeAllEditors"
+  },
+  {
+    "key": "cmd+r cmd+w",
+    "command": "-workbench.action.closeAllEditors"
+  },
+  {
+    "key": "cmd+k shift+cmd+w",
+    "command": "workbench.action.closeAllGroups"
+  },
+  {
+    "key": "cmd+r shift+cmd+w",
+    "command": "-workbench.action.closeAllGroups"
+  }
+]
